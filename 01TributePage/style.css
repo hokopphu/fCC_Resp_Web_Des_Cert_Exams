@@ -1,5 +1,5 @@
 html{
-    background:rgba(172, 172, 13, 0.5);  
+    background:rgba(223, 223, 146, 0.5);  
     display: flex;
 }
 body{
@@ -8,19 +8,20 @@ body{
 }
 
 #main{
-    background:rgba(150, 150, 100, 1);
+    background:rgb(224, 224, 167);
     width:100%;
     margin:0px auto;
-    padding:0 2%;
+    padding:0%;
     height: 100%;
 }
 #title{
-    background:rgb(140, 140, 110);
+    background:rgb(179, 179, 120);
     text-align: center;
+    padding:2em;
 }
 #title h1{
     margin:0;
-    font-size:2.5em;
+    font-size:3.5em;
 }
 #title p{
     margin-top:0;
@@ -36,18 +37,23 @@ body{
     margin:auto;
 }
 #img-caption{
-
+    font-size: 1.2em;
+    font-style: italic;
 }
 #tribute-info{
     font-size: 1.2em;
+}
+#tribute-info p{
+    width:90%;
+    margin:5% auto;
 }
 #tribute-link{
  font-size: 1.2em;
 }
 #footer{
-    background:rgb(140, 140, 110);
+    background:rgb(179, 179, 120);
     text-align: center;
-    width:100%;
+    padding:1em;
 }
 #fcc-img{
     max-width:15%;
@@ -56,7 +62,9 @@ body{
 li, h2{
     margin:auto;
     width:50%;
-    background-color: rgb(179, 179, 120);
-    box-shadow: 5px 5px rgb(78, 78, 54);
+    min-width:250px;
+    background-color: rgb(211, 211, 143);
+    box-shadow: 5px 5px rgb(163, 163, 113);
+    list-style: none;
 }
 h2{padding-bottom:1em;}
