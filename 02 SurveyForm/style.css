@@ -1,0 +1,12 @@
+body{
+    display:grid;
+    background-color: rgb(4, 4, 27);
+    color:rgb(245, 209, 252);
+    text-shadow: 0 0 2em rgb(142, 43, 161);
+    font-size: 1.2em;
+    
+}
+
+h1{
+    color:rgb(165, 49, 87);
+}
