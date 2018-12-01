@@ -1,12 +1,22 @@
 body{
     display:grid;
     background-color: rgb(4, 4, 27);
-    color:rgb(245, 209, 252);
-    text-shadow: 0 0 2em rgb(142, 43, 161);
+    color:rgb(246, 218, 252);
+    text-shadow: 1px 1px 20px rgb(65, 24, 73);
     font-size: 1.2em;
-    
 }
 
 h1{
     color:rgb(165, 49, 87);
+    margin:auto;
+}
+ #img-fortune-teller{
+     position: absolute;
+     z-index: -1;
+    width: 100%;
+    opacity: .5;
+ }
+
+#survey-form{
+    margin:auto;
 }
